@@ -71,14 +71,14 @@ const RecentProjects = () => {
         <ProjectCard
           title={t("recentProjects.simon.title")}
           description={t("recentProjects.simon.description")}
-          imageUrl="/src/assets/projects/simon.png"
+          imageUrl="/simon/projects/simon.png"
           tools={["Typescript", "React", "Tailwind"]}
           source="https://github.com/tmxsimon/simon"
         />
         <ProjectCard
           title={t("recentProjects.lingvo.title")}
           description={t("recentProjects.lingvo.description")}
-          imageUrl="/src/assets/projects/lingvo.png"
+          imageUrl="/simon/projects/lingvo.png"
           tools={[
             "Typescript",
             "React",

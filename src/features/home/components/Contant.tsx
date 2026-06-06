@@ -36,7 +36,7 @@ const Contact = () => {
             .
           </p>
         </div>
-        <div className="justify-between flex mt-12">
+        <div className="justify-between flex mt-12 gap-base">
           <div className="flex gap-base-sm">
             <ContactLink
               url="https://github.com/tmxsimon"
