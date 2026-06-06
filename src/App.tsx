@@ -4,7 +4,7 @@ import HomePage from "./features/home/pages/HomePage";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/simon">
       <Routes>
         <Route element={<MainLayout />}>
           <Route index element={<HomePage />} />
