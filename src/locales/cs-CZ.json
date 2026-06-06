@@ -1,0 +1,72 @@
+{
+  "translation": {
+    "lastUpdated": "Naposledy aktualizováno: 7. července 2026",
+    "contactMe": "Kontaktovat mě",
+    "website": "Web",
+    "source": "Zdroj",
+
+    "navbar": {
+      "aboutMe": "o mně",
+      "skills": "dovednosti",
+      "projects": "projekty",
+      "experience": "zkušenosti",
+      "contact": "kontakt"
+    },
+
+    "basicInfo": {
+      "title": "Ahoj, jsem Tim Simon!",
+      "description": {
+        "1": "Jsem 18letý full-stack vývojář žijící v Česku.",
+        "2": "Rád vytvářím užitečné weby a aplikace."
+      }
+    },
+
+    "skills": {
+      "skills": "Dovednosti"
+    },
+
+    "recentProjects": {
+      "recentProjects": "Nejnovější projekty",
+
+      "simon": {
+        "title": "simon",
+        "description": "Osobní portfolio web"
+      },
+
+      "lingvo": {
+        "title": "lingvo",
+        "description": "Platforma pro samostudium jazyků"
+      }
+    },
+
+    "experience": {
+      "experience": "Zkušenosti",
+
+      "dieboldNixdorf": {
+        "title": "Full-stack vývojář",
+        "company": "Diebold Nixdorf",
+        "duration": "úno 2026",
+        "description": "Dvoutýdenní praxe ve společnosti Diebold Nixdorf. Během praxe jsem programoval modul pro jejich aplikaci v Javě s frameworkem Spring a pracoval s PostgreSQL. Po skončení praxe vedoucí ocenil mou práci a uvedl, že jsem jeden z nejlepších praktikantů za posledních 5 let."
+      },
+
+      "vezmiFoto": {
+        "title": "WordPress web",
+        "company": "VEzMI foto",
+        "duration": "led - úno 2026",
+        "description": "Od základu jsem vytvořil webové stránky pro fotografky na platformě WordPress včetně konfigurace mnoha pluginů."
+      },
+
+      "nightcoders": {
+        "title": "Full-stack vývojář",
+        "company": "nightcoders;",
+        "duration": "kvě - čvc 2025",
+        "description": "Pracoval jsem na několika projektech: mobilní aplikaci v React Native a AI-first službách využívajících React a FastAPI. Také jsem pracoval s API služeb Mailgun a Google Drive."
+      }
+    },
+
+    "contact": {
+      "contact": "Kontakt",
+      "text": "Nejlepší způsob, jak mě kontaktovat, je e-mail."
+    }
+  }
+}

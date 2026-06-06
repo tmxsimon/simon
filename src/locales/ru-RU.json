@@ -1,0 +1,72 @@
+{
+  "translation": {
+    "lastUpdated": "Последнее обновленее: 7 Июль, 2026",
+    "contactMe": "Написать мне",
+    "website": "Сайт",
+    "source": "Источник",
+
+    "navbar": {
+      "aboutMe": "о мне",
+      "skills": "навыки",
+      "projects": "проекты",
+      "experience": "опыт",
+      "contact": "контакт"
+    },
+
+    "basicInfo": {
+      "title": "Привет, я Тим Симон!",
+      "description": {
+        "1": "Я 18-ти летний full-stack разработчик базирующийся в Чехии",
+        "2": "Люблю создавать полезные сайты и приложения."
+      }
+    },
+
+    "skills": {
+      "skills": "Навыки"
+    },
+
+    "recentProjects": {
+      "recentProjects": "Последние Проекты",
+
+      "simon": {
+        "title": "simon",
+        "description": "Личный сайт-портфолио"
+      },
+
+      "lingvo": {
+        "title": "lingvo",
+        "description": "Платформа для самообучения языков"
+      }
+    },
+
+    "experience": {
+      "experience": "Опыт",
+
+      "dieboldNixdorf": {
+        "title": "Full-stack разработчик",
+        "company": "Diebold Nixdorf",
+        "duration": "февр. 2026",
+        "description": "Двухнедельная практика в компании Diebold Nixdorf. В течении практики я программировал модуль для их программы на Java с фреймворком Spring и работал с PostgreSQL. После практики ведущий оценил мою работу и сказал что я был один из самых лучших практикантов за последних 5 лет. "
+      },
+
+      "vezmiFoto": {
+        "title": "Сайт на Wordpress",
+        "company": "VEzMI foto",
+        "duration": "янв. - февр. 2026",
+        "description": "С нуля создал сайт для фотографок на платформе WordPress с настройкой множества плагинов. "
+      },
+
+      "nightcoders": {
+        "title": "Full-stack разработчик",
+        "company": "nightcoders;",
+        "duration": "май - июль 2025",
+        "description": "Работал над нескольками проектами: мобильное приложение на React Native и AI-first службы с использованием React, FastAPI. Также работал с API от служб Mailgun и Google Drive"
+      }
+    },
+
+    "contact": {
+      "contact": "Контакт",
+      "text": "Лучший способ связаться со мной — по электронной почте "
+    }
+  }
+}

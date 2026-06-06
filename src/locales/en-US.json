@@ -1,0 +1,72 @@
+{
+  "translation": {
+    "lastUpdated": "Last updated: July 7, 2026",
+    "contactMe": "Contact Me",
+    "website": "Website",
+    "source": "Source",
+
+    "navbar": {
+      "aboutMe": "about me",
+      "skills": "skills",
+      "projects": "projects",
+      "experience": "experience",
+      "contact": "contact"
+    },
+
+    "basicInfo": {
+      "title": "Hi, I'm Tim Simon!",
+      "description": {
+        "1": "I'm an 18-year-old full-stack developer based in the Czech Republic.",
+        "2": "I enjoy building useful websites and applications."
+      }
+    },
+
+    "skills": {
+      "skills": "Skills"
+    },
+
+    "recentProjects": {
+      "recentProjects": "Recent Projects",
+
+      "simon": {
+        "title": "simon",
+        "description": "Personal portfolio website"
+      },
+
+      "lingvo": {
+        "title": "lingvo",
+        "description": "Language self-learning platform"
+      }
+    },
+
+    "experience": {
+      "experience": "Experience",
+
+      "dieboldNixdorf": {
+        "title": "Full-Stack Developer",
+        "company": "Diebold Nixdorf",
+        "duration": "Feb 2026",
+        "description": "Completed a two-week internship at Diebold Nixdorf. During the internship, I developed a module for their application in Java using the Spring framework and worked with PostgreSQL. After the internship, my supervisor praised my work and stated that I was among the best interns in the last five years."
+      },
+
+      "vezmiFoto": {
+        "title": "WordPress Website",
+        "company": "VEzMI foto",
+        "duration": "Jan - Feb 2026",
+        "description": "Built a website for photographers from scratch on the WordPress platform, including the configuration of numerous plugins."
+      },
+
+      "nightcoders": {
+        "title": "Full-Stack Developer",
+        "company": "nightcoders;",
+        "duration": "May - Jul 2025",
+        "description": "Worked on several projects, including a React Native mobile application and AI-first services built with React and FastAPI. Also integrated and worked with the Mailgun and Google Drive APIs."
+      }
+    },
+
+    "contact": {
+      "contact": "Contact",
+      "text": "The best way to contact me is via email."
+    }
+  }
+}
