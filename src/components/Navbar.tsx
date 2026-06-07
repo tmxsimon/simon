@@ -16,11 +16,23 @@ const Navbar = () => {
   };
 
   useEffect(() => {
+    const rootElements = [document.body, document.documentElement];
+
     if (isMenuOpened) {
-      document.body.classList.add("overflow-y-hidden");
+      rootElements.forEach((element) =>
+        element.classList.add("overflow-y-hidden"),
+      );
     } else {
-      document.body.classList.remove("overflow-y-hidden");
+      rootElements.forEach((element) =>
+        element.classList.remove("overflow-y-hidden"),
+      );
     }
+
+    return () => {
+      rootElements.forEach((element) =>
+        element.classList.remove("overflow-y-hidden"),
+      );
+    };
   }, [isMenuOpened]);
 
   const links = [
@@ -55,7 +67,7 @@ const Navbar = () => {
               <a
                 key={index}
                 href={link.link}
-                onClick={() => setIsMenuOpened(false)}
+                onClick={switchMenu}
                 className="text-2xl"
               >
                 {link.name}
