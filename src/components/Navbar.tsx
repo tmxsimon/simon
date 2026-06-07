@@ -16,23 +16,11 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    const rootElements = [document.body, document.documentElement];
-
     if (isMenuOpened) {
-      rootElements.forEach((element) =>
-        element.classList.add("overflow-y-hidden"),
-      );
+      document.documentElement.classList.add("overflow-y-hidden");
     } else {
-      rootElements.forEach((element) =>
-        element.classList.remove("overflow-y-hidden"),
-      );
+      document.documentElement.classList.remove("overflow-y-hidden");
     }
-
-    return () => {
-      rootElements.forEach((element) =>
-        element.classList.remove("overflow-y-hidden"),
-      );
-    };
   }, [isMenuOpened]);
 
   const links = [
