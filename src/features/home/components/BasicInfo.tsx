@@ -21,12 +21,12 @@ const BasicInfo = () => {
           </LinkButton>
         </div>
       </div>
-      <div>
+      {/* <div>
         <img
           src="https://artist-production.de/de/wp-content/uploads/sites/4/2026/02/anton-tschernjak-krovostok.jpg"
           className="h-full rounded-base object-cover border border-gray-neutral-300 w-full max-h-120 sm:max-h-none"
         />
-      </div>
+      </div> */}
     </div>
   );
 };
